@@ -1,0 +1,55 @@
+.backgroundImg{
+    /* position: relative;  */
+    top: 0; 
+    left: 0; 
+}
+
+.bgImg{
+    max-width: 100%;
+    margin-top: 5%;
+}
+
+.appContainer{
+border-bottom: #dddddd  3px;
+}
+
+.contentLeft{
+    opacity: 1;
+    position: absolute;
+    right: 75%;
+    left: 5%;
+    top: 25%;
+    color: #333333;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+.contentRight{
+    opacity: 1;
+    position: absolute;
+    right: 5%;
+    left: 75%;
+    top: 25%;
+    color: #333333;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 600px)  {
+
+    .description h1{
+        font-size: x-large;
+    }
+    .description p{
+        display: none;
+    }
+    }
+
+    @media (max-width: 300px)  {
+        .contentLeft .description h1{
+            font-size: medium;
+        }
+    }
