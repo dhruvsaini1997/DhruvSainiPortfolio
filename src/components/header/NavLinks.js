@@ -10,11 +10,11 @@ const NavLinks = (props) => {
         className='nav-link'><a href="https://www.facebook.com/dhruvsaini1997/" onClick={() => props.isMobile && props.closeMobileMenu} target='_blank'>about</a></li>
       <li
       
-        className='nav-link'><a href="#link" onClick={() => props.isMobile && props.closeMobileMenu}>portfolio</a></li>
+        className='nav-link'><a href="#" onClick={() => props.isMobile && props.closeMobileMenu}>portfolio</a></li>
       <li
-      className='nav-link'><a href="blog" onClick={() => props.isMobile && props.closeMobileMenu}>blog</a></li>
+      className='nav-link'><a href="#" onClick={() => props.isMobile && props.closeMobileMenu}>blog</a></li>
       <li
-        className='nav-link'><a href="#link1" onClick={() => props.isMobile && props.closeMobileMenu}>contact</a></li>
+        className='nav-link'><a href="#" onClick={() => props.isMobile && props.closeMobileMenu}>contact</a></li>
       <li className='social'>
         <div className='social fb'>
 
