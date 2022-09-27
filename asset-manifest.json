@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/DhruvSainiPortfolio/static/css/main.071b0008.css",
-    "main.js": "/DhruvSainiPortfolio/static/js/main.e1096b66.js",
-    "static/js/787.8033745c.chunk.js": "/DhruvSainiPortfolio/static/js/787.8033745c.chunk.js",
-    "static/media/IMG1.jpg": "/DhruvSainiPortfolio/static/media/IMG1.9dd50d34433e95fe2b44.jpg",
-    "static/media/DhruvSainiMono.jpg": "/DhruvSainiPortfolio/static/media/DhruvSainiMono.d4415db5d7cad302b31b.jpg",
-    "index.html": "/DhruvSainiPortfolio/index.html",
-    "main.071b0008.css.map": "/DhruvSainiPortfolio/static/css/main.071b0008.css.map",
-    "main.e1096b66.js.map": "/DhruvSainiPortfolio/static/js/main.e1096b66.js.map",
-    "787.8033745c.chunk.js.map": "/DhruvSainiPortfolio/static/js/787.8033745c.chunk.js.map"
+    "main.css": "/static/css/main.071b0008.css",
+    "main.js": "/static/js/main.ee8dc2fe.js",
+    "static/js/787.8033745c.chunk.js": "/static/js/787.8033745c.chunk.js",
+    "static/media/IMG1.jpg": "/static/media/IMG1.9dd50d34433e95fe2b44.jpg",
+    "static/media/DhruvSainiMono.jpg": "/static/media/DhruvSainiMono.d4415db5d7cad302b31b.jpg",
+    "index.html": "/index.html",
+    "main.071b0008.css.map": "/static/css/main.071b0008.css.map",
+    "main.ee8dc2fe.js.map": "/static/js/main.ee8dc2fe.js.map",
+    "787.8033745c.chunk.js.map": "/static/js/787.8033745c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.071b0008.css",
-    "static/js/main.e1096b66.js"
+    "static/js/main.ee8dc2fe.js"
   ]
 }
