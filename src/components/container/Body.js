@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Container } from 'react-bootstrap'
 import './Body.css'
+import dsbackpic from '../../images/IMG1.jpg'
 
 export default class Body extends Component {
   render() {
@@ -8,7 +9,7 @@ export default class Body extends Component {
       <Container className='appContainer'>
       <div className='row'>
       <div className='col-12 backgroundImg'>
-      <img className='bgImg'  alt="background" src='IMG1.jpg'/>
+      <img className='bgImg'  alt="background" src={dsbackpic}/>
       <div className="contentLeft">
                 <div className="coder description">
 									<h1><span className="chevron-left">&lt;</span>coder<span className="chevron-right">&gt;</span></h1>
