@@ -1,0 +1,78 @@
+.projectContainer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.header-center{
+    height: 1px;
+    background: #dddddd;
+    border-bottom: #ffffff solid 1px;
+    margin-bottom: 3.2rem;
+    position: relative;
+}
+
+.header-center h3{
+    background: #fafafa;
+    position: absolute;
+    top: -0.8rem;
+    left: 50%;
+    margin-left: -160px;
+    width: 320px;
+    text-align: center;
+    display: block;
+    color: #757575;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-size: 1.0rem;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+    padding: 0 !important;
+    font-family: "proxima nova semibold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+.projectContainer{
+   background-color: #fafafa;
+   width: 100%;
+   text-decoration: none;
+
+}
+
+@media (max-width: 800px)  {
+
+    .description h1{
+        font-size: x-large;
+    }
+    .description p{
+        display: none;
+    }
+    }
+
+    @media (max-width: 600px)  {
+        .contentLeft .description h1{
+            font-size: medium;
+        }
+    }
+
+
+    .appCard{
+        background-color: white;
+        height: 100%;
+        align-items: center;
+        cursor: pointer;
+        text-decoration: none;
+        color: #262626;
+    }
+    
+    .appCard:hover{
+        transition: .1s;
+        box-shadow: 1px 3px 10px rgb(51 51 51 / 10%);
+    }
+
+        .imgCard{
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 150px;
+            height: 150px;
+            border-radius: 25px;
+        }

@@ -1,14 +1,19 @@
 import React, { Component } from 'react'
-import Body from '../container/Body'
+import AboutPage from '../container/AboutPage'
+import ProjectContainer from '../container/ProjectContainer'
+import Footer from '../footer/Footer'
 import Header from '../header/Header'
 import './AppContainer'
 
-export default class AppContainer extends Component {
-  render() {
-    return (
-        <div className='appContainerMain'>
-      <Header/>
-      <Body/></div>
-    )
-  }
+function AppContainer(props) {
+  return (
+    <div className='appContainerMain'>
+      <Header />
+      <AboutPage />
+      <ProjectContainer constantData={props.constantData} />
+      <Footer/>
+    </div>
+  )
+
 }
+export default AppContainer;

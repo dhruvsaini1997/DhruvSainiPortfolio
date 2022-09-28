@@ -7,10 +7,10 @@ const NavLinks = (props) => {
 
     <Nav className="navLinks" >
      <li
-        className='nav-link'><a href="https://www.facebook.com/dhruvsaini1997/" onClick={() => props.isMobile && props.closeMobileMenu} target='_blank'>about</a></li>
+        className='nav-link'><a href="#about" onClick={() => props.isMobile && props.closeMobileMenu}>about</a></li>
       <li
       
-        className='nav-link'><a href="#" onClick={() => props.isMobile && props.closeMobileMenu}>portfolio</a></li>
+        className='nav-link'><a href="#projects" onClick={() => props.isMobile && props.closeMobileMenu}>projects</a></li>
       <li
       className='nav-link'><a href="#" onClick={() => props.isMobile && props.closeMobileMenu}>blog</a></li>
       <li

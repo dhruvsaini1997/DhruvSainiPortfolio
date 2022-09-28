@@ -1,4 +1,4 @@
-.backgroundImg{
+.aboutClass{
     /* position: relative;  */
     top: 0; 
     left: 0; 
@@ -9,8 +9,9 @@
     margin-top: 5%;
 }
 
-.appContainer{
-border-bottom: #dddddd  3px;
+.aboutContainer{
+  max-width: 900px;
+    border-bottom: #dddddd solid 1px;
 }
 
 .contentLeft{
@@ -36,9 +37,7 @@ border-bottom: #dddddd  3px;
     text-decoration: none;
 }
 
-
-
-@media (max-width: 600px)  {
+@media (max-width: 800px)  {
 
     .description h1{
         font-size: x-large;
@@ -48,8 +47,11 @@ border-bottom: #dddddd  3px;
     }
     }
 
-    @media (max-width: 300px)  {
+    @media (max-width: 600px)  {
         .contentLeft .description h1{
+            font-size: medium;
+        }
+        .contentRight .description h1{
             font-size: medium;
         }
     }
