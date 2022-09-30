@@ -45,6 +45,10 @@
     .description p{
         display: none;
     }
+    .downloadBtn{
+        position: relative;
+        font-size: medium;
+    }
     }
 
     @media (max-width: 600px)  {
@@ -54,4 +58,20 @@
         .contentRight .description h1{
             font-size: medium;
         }
+        .contentLeft .description .p  .a .span{
+            font-size: small;
+        }
+        .downloadBtn{
+            position: relative;
+            font-size: small;
+        }
+    }
+
+
+    .downloadBtn{
+       color: #333333;
+    }
+
+    .downloadBtn:hover{
+     color: gray;
     }

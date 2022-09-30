@@ -3,10 +3,10 @@ import React from "react";
 import NavigBar from './NavigBar';
 import monoPic from '../../images/DhruvSainiMono.jpg'
 
-
 export default function Header() {
-
+   
   return (
+ 
 
     <div className='header' id='top'>
       <div className='row align-items-center h-100'>

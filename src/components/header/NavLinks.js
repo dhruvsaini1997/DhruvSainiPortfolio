@@ -7,12 +7,12 @@ const NavLinks = (props) => {
 
     <Nav className="navLinks" >
      <li
-        className='nav-link'><a href="#about" onClick={() => props.isMobile && props.closeMobileMenu}>about</a></li>
+        className='nav-link'><a href="#top" onClick={() => props.isMobile && props.closeMobileMenu}>about</a></li>
       <li
       
         className='nav-link'><a href="#projects" onClick={() => props.isMobile && props.closeMobileMenu}>projects</a></li>
       <li
-      className='nav-link'><a href="#" onClick={() => props.isMobile && props.closeMobileMenu}>blog</a></li>
+      className='nav-link'><a href="#skillPage" onClick={() => props.isMobile && props.closeMobileMenu}>skills</a></li>
       <li
         className='nav-link'><a href="#" onClick={() => props.isMobile && props.closeMobileMenu}>contact</a></li>
       <li className='social'>

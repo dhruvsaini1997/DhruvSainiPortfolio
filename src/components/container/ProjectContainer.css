@@ -1,6 +1,11 @@
 .projectContainer{
     padding-top: 5%;
     padding-bottom: 5%;
+    height: 100vh;
+    background-color: #fafafa;
+    width: 100%;
+    text-decoration: none;  
+    position: relative;
 }
 
 .header-center{
@@ -29,13 +34,11 @@
     padding: 0 !important;
     font-family: "proxima nova semibold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
-
-.projectContainer{
-   background-color: #fafafa;
-   width: 100%;
-   text-decoration: none;
-
-}
+.card-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 @media (max-width: 800px)  {
 
@@ -45,7 +48,10 @@
     .description p{
         display: none;
     }
-    }
+    
+    .projectContainer{
+        height: 100%;
+    }}
 
     @media (max-width: 600px)  {
         .contentLeft .description h1{

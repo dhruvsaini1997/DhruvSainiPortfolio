@@ -1,0 +1,23 @@
+.appcard{
+    background-color: white;
+    height: 100%;
+    text-decoration: none;
+    color: #262626;
+
+}
+
+
+.cardHolder{
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    border: none;
+    background-color: white;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 0px;
+    color: rgb(66, 66, 176);
+}
