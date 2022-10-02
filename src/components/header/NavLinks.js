@@ -14,7 +14,7 @@ const NavLinks = (props) => {
       <li
       className='nav-link'><a href="#skillPage" onClick={() => props.isMobile && props.closeMobileMenu}>skills</a></li>
       <li
-        className='nav-link'><a href="#" onClick={() => props.isMobile && props.closeMobileMenu}>contact</a></li>
+        className='nav-link'><a href="#workEx" onClick={() => props.isMobile && props.closeMobileMenu}>work experience</a></li>
       <li className='social'>
         <div className='social fb'>
 

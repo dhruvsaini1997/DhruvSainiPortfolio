@@ -163,3 +163,12 @@ border:2px solid black;
     color: black!important;
     border:2px solid black;
 }
+
+.downloadBtn{
+    text-decoration: none;
+}
+
+.downloadBtn:hover {
+    color: black!important;
+    text-decoration: none;
+    }

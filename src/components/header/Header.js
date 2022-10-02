@@ -5,10 +5,10 @@ import monoPic from '../../images/DhruvSainiMono.jpg'
 
 export default function Header() {
    
-  return (
- 
 
-    <div className='header' id='top'>
+  
+  return (
+     <div className='header' id='top'>
       <div className='row align-items-center h-100'>
         <div className='monoCol  mx-auto'>
           <a><img alt="" src={monoPic}
