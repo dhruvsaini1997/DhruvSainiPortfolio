@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
 import './SkillPage.css'
-import { FaTools, FaCloud, FaDatabase, FaMicrosoft } from 'react-icons/fa'
+import { FaTools, FaCloud, FaDatabase, FaPython } from 'react-icons/fa'
 import { BsLaptopFill, BsFileEarmarkCodeFill } from "react-icons/bs";
 import { AiFillCodeSandboxSquare } from "react-icons/ai";
 import Aos from "aos";
@@ -31,7 +31,7 @@ function SkillPage(props) {
                                         {skill.index == 3 && <FaCloud color='black' />}
                                         {skill.index == 4 && <FaDatabase color='black' />}
                                         {skill.index == 5 && <AiFillCodeSandboxSquare color='black' size='40px' />}
-                                        {skill.index == 6 && <FaMicrosoft color='black' />}
+                                        {skill.index == 6 && <FaPython color='black' />}
 
                                         &nbsp;
                                         {skill.title}</Card.Header>

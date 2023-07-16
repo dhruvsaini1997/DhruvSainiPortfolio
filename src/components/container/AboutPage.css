@@ -10,7 +10,7 @@
 }
 
 .aboutContainer {
-    max-width: 900px;
+    max-width: 1000px;
     border-bottom: #dddddd solid 1px;
 }
 
@@ -149,26 +149,118 @@ color: gray;
     text-decoration: none;
     padding: 1px;
 }
-.downloadClass{
-margin-top:10% ;
-padding: 1%;
-padding-top: 5%;
-border:2px solid black;
-}
-
-.downloadClass:hover {
-    background: linear-gradient(to left, aqua 50%, black 50%) right;
+.downloadClass {
+    margin-top: 10%;
+    padding: 1%;
+    padding-top: 5%;
+    border: 2px solid black;
+  }
+  
+  .downloadClass:hover {
+    background: linear-gradient(to left, coral 50%, black 50%) right;
     background-size: 200%;
-    transition: .5s ease-out;
-    color: black!important;
-    border:2px solid black;
-}
-
-.downloadBtn{
+    transition: 0.5s ease-out;
+    color: black !important;
+    /* border: 2px solid black; */
+  }
+  
+  .downloadBtn {
     text-decoration: none;
-}
-
-.downloadBtn:hover {
-    color: black!important;
+    color: black;
+  }
+  
+  .downloadBtn:hover {
+    color: white !important;
     text-decoration: none;
-    }
+  }
+  
+
+
+
+    .coder.description {
+        background-color: #f8f8f8;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+      
+      .coder.description h1 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #333333;
+        margin-bottom: 10px;
+      }
+      
+      .coder.description p {
+        font-size: 18px;
+        color: #666666;
+        margin-bottom: 20px;
+      }
+      
+      .coder.description a {
+        display: inline-block;
+        background-color: #333333;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+      
+      .coder.description a:hover {
+        background-color: #555555;
+      }
+      
+      .contactBtn {
+        background-color: #333333;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .contactBtn:hover {
+        background-color: coral;
+        color: black !important;
+      }
+      
+      .whatsNew {
+        margin-top: 10%;
+        background-color: #f8f8f8;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+      
+      .whatsNew h2 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #333333;
+        margin-bottom: 10px;
+      }
+      
+      .whatsNew p {
+        font-size: 18px;
+        color: #666666;
+        margin-bottom: 20px;
+      }
+      
+      .whatsNew a {
+        display: inline-block;
+        background-color: #333333;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+      
+      .whatsNew a:hover {
+        background-color: #555555;
+      }
+      

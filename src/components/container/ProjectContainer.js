@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
 import './ProjectContainer.css';
 import Aos from "aos";
@@ -9,6 +9,7 @@ function ProjectContainer(props) {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
+  const [hoveredCard, setHoveredCard] = useState(null);
 
   return (
     <div className='projectContainer' id="projects">
@@ -22,14 +23,23 @@ function ProjectContainer(props) {
               {props.constantData.allProjects.map(project =>
               (
                 <Col data-aos="fade-up"><a className='appCard' href={project.githubLink} target='_blank'>
-                  <Card className='appCard'>
+                <Card
+  className={`appCard ${hoveredCard === project.id ? 'hovered' : ''}`}
+  onMouseEnter={() => setHoveredCard(project.id)}
+  onMouseLeave={() => setHoveredCard(null)}
+>
+
                     <Card.Img className="imgCard" variant="top" src={project.imgUrl} />
                     <Card.Body>
                       <Card.Title>{project.title}</Card.Title>
                       <Card.Text>
-                        {project.description}
+                       {hoveredCard === project.id ? project.description : project.description.split(' ').slice(0, 50).join(' ')}
+                       {project.description.split(' ').length > 50 && hoveredCard !== project.id ? '...' : ''}
                       </Card.Text>
                     </Card.Body>
+                    <Card.Footer  className="-3">
+                      <small className="text-muted">{project.skills}</small>
+                    </Card.Footer>
                   </Card></a>
                 </Col>
               ))}

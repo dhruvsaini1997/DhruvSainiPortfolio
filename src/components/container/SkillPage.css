@@ -1,26 +1,56 @@
-.appcard{
-    background-color: white;
-    height: 100%;
+.appcard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
     text-decoration: none;
     color: #262626;
-
-}
-
-
-.cardHolder{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .appcard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cardHolder {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.title{
-    border: none;
-    background-color: white;
+    padding: 1rem;
+  }
+  
+  .title {
     font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-size: 25px;
-    padding-bottom: 0px;
-    color: rgb(66, 66, 176);
-}
-.cardBody{
-    padding-left: 10%;
-}
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .cardBody {
+    padding: 0;
+  }
+  
+  .cardBody ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cardBody ul li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cardBody ul li .icon {
+    margin-right: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1rem;
+    }
+  }
+  
