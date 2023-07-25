@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import './AboutPage.css';
 import dsbackpic from '../../images/IMG1.jpg';
-import dsResume from '../../images/DhruvSaini_Resume.pdf';
+import dsResume from '../../images/DhruvSaini.pdf';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import CountUp from 'react-countup';
