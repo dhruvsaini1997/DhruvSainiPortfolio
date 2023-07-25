@@ -31,8 +31,8 @@ const allProjects = [
         title: 'Machine Learning Algorithms and Practises',
         skills: "Python", 
         imgUrl: 'ML.jpeg',
-        githubLink: '',
-        description: ''
+        githubLink: 'https://github.com/dhruvsaini1997/Machine-Learning-CS6140',
+        description: 'Ongoing ML Algorithm practices and implementations.'
     }
 
 
