@@ -3,8 +3,8 @@ const allProjects = [
         title: 'Ongoing Machine Learning Project - Bank Fraud Detection',
         imgUrl: 'bankFraud.jpeg',
         skills: "Python | scikit-learn | NumPy | Matplotlib | Seaborn", 
-        githubLink: 'https://github.com/dhruvsaini1997/Data-Structures-And-Algorithms-Practise',
-        description: 'Currently working on a machine learning project focused on developing a classification model for bank fraud detection using supervised learning techniques. Collaborating with a team to analyze a publicly available dataset and implement algorithms such as Logistic Regression, Decision Trees, and potentially Neural Networks to accurately detect and classify fraudulent activities in the banking sector. Employing evaluation measures, cross-validation, and feature ablation techniques to fine-tune the models performance and ensure its ability to generalize to unseen data. Expected outcomes include improved fraud detection accuracy and enhanced trust in the banking sector.'
+        githubLink: 'https://github.com/dhruvsaini1997/Bank-Fraud-Detection-Using-NeurIPS-2022-Dataset-suite',
+        description: 'Worked on a machine learning project focused on developing a classification model for bank fraud detection using supervised learning techniques. Collaborating with a team to analyze a publicly available dataset and implement algorithms such as Logistic Regression, Decision Trees, and potentially Neural Networks to accurately detect and classify fraudulent activities in the banking sector. Employing evaluation measures, cross-validation, and feature ablation techniques to fine-tune the models performance and ensure its ability to generalize to unseen data. Expected outcomes include improved fraud detection accuracy and enhanced trust in the banking sector.'
     },
     {id:2,
         title: 'Logitt Application',
@@ -33,6 +33,13 @@ const allProjects = [
         imgUrl: 'ML.jpeg',
         githubLink: 'https://github.com/dhruvsaini1997/Machine-Learning-CS6140',
         description: 'Ongoing ML Algorithm practices and implementations.'
+    },
+     {id:6,
+        title: 'Data Structures and Algorithms',
+        skills: "Java | Python | C++", 
+        imgUrl: 'dsAndAlgo.jpg',
+        githubLink: 'https://github.com/dhruvsaini1997/DSA_Practise/tree/main/src',
+        description: 'Ongoing Algorithm practices and implementations.'
     }
 
 

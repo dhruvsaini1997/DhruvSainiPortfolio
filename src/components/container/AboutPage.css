@@ -88,6 +88,10 @@ margin-top: 15%;
 }
 
 @media (max-width: 600px) {
+  .whatsNew {
+    display: none;
+  }
+
     .contentLeft .description h1 {
         font-size: medium;
     }
@@ -110,7 +114,7 @@ margin-top: 15%;
         font-size: medium    ;
     }
     .countClass h5{
-        font-size: small   ;
+        font-size: x-small   ;
     }
     .contentRight{
         right: 5%;
