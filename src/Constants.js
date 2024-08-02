@@ -27,14 +27,7 @@ const allProjects = [
         githubLink: 'https://github.com/dhruvsaini1997/Documents/blob/main/SmartGarbageMonitoring_Report.pdf',
         description: 'The Smart Garbage Monitoring and Controlling System project was part of my undergraduate final year project at SRM University. It was initiated to support the cleanliness drive of the Swachh Bharat Abhiyan launched by the Government of India. A prototype was developed using an Arduino microcontroller. The system utilizes an ultrasound sensor to monitor the garbage level. Additionally, a metal detector and a moisture sensor were incorporated to segregate metal and wet waste from the garbage. The management of plastics and degradable items is facilitated using image processing techniques.'
     },
-    {id:5,
-        title: 'Machine Learning Algorithms and Practises',
-        skills: "Python", 
-        imgUrl: 'ML.jpeg',
-        githubLink: 'https://github.com/dhruvsaini1997/Machine-Learning-CS6140',
-        description: 'Ongoing ML Algorithm practices and implementations.'
-    },
-     {id:6,
+     {id:5,
         title: 'Data Structures and Algorithms',
         skills: "Java | Python | C++", 
         imgUrl: 'dsAndAlgo.jpg',
@@ -63,7 +56,7 @@ const allSkills = [
     },
     {
         title: 'Libraries',
-        list: ['Pytorch', 'Sklearn', 'Matplotlib ', 'NumPy'],
+        list: ['Pytorch', 'Pandas', 'Matplotlib ', 'NumPy'],
         index:6
     }
     , {
@@ -73,7 +66,7 @@ const allSkills = [
     },
     {
         title: 'Database Technologies',
-        list: ['PostGres', 'Workbench', 'MySQL', 'MongoDB']
+        list: ['PostGres', 'BigQuery', 'MySQL', 'MongoDB']
         , index:4
     }
     
@@ -83,23 +76,40 @@ const timelineItems =
 
 [
     {
-        title:'Graduate Student Teaching Assistant',
-        organization:'Khoury College of Computer Science',
+        title:'Software Data Engineering Co-Op',
+        organization:'Addgene',
         location:'Boston, United States',
         responsibilities: [
-            'Actively serving as a Teaching Assistant for CS5200 Database System, guiding and mentoring a class of students through database design principles and PL/SQL.',
-            'Offering comprehensive support, resolving queries, and providing valuable academic assessments to enhance their learning experience.',
-            'Helping over 60 students with designing and implementing Database oriented projects using SQL and No SQL Databases with backend(java/python) and frontend(react) technologies.'
+            'Contributed to the continuous development and delivery of functionalities for the Lab Information Management System (LIMS) and the public website.',
+            'Redesigned and refactored ETL data pipelines to integrate plasmid sequences and features data from multiple sources (SnapGene/S3) to Google BigQuery, enhancing data ingestion time by 60%.',
+            'Actively optimizing data pipeline performance and automating data cleaning and filtering processes.',
+            'Developed and automated complex logic for verifying and correcting plasmid sequences prior to manual intervention.'
         ],
-        skills: "Java | Python | JDBC | SQL | MongoDb",      
-        date: 'May 2023 - Present',
+        skills: "Python | Django | REST APIs | SQL | BigQuery | Docker",      
+        date: 'May 2024 - Present',
         category: {
             tag: 'Full-Time',
             color: '#76B947'
         }
     },
     {
-        title:'Product Engineer',
+        title:'Graduate Teaching Assistant',
+        organization:'Khoury College of Computer Science',
+        location:'Boston, United States',
+        responsibilities: [
+            'Served as a Teaching Assistant for CS5200 Database System, guiding and mentoring a class of students through database design principles and PL/SQL.',
+            'Offering comprehensive support, resolving queries, and providing valuable academic assessments to enhance their learning experience.',
+            'Helping over 60 students with designing and implementing database oriented projects using SQL and No SQL Databases with backend(java/python) and frontend(react) technologies.'
+        ],
+        skills: "Python | SQL | Database Design | MongoDb",      
+        date: 'May 2023 - May 2024',
+        category: {
+            tag: 'Full-Time',
+            color: '#76B947'
+        }
+    },
+    {
+        title:'Software Engineer',
         organization:'Publicis Sapient',
         location:'Gurugram, India',
         responsibilities: [
