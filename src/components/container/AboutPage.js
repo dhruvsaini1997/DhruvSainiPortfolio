@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import './AboutPage.css';
 import dsbackpic from '../../images/IMG1.jpg';
-import dsResume from '../../images/DhruvSaini.pdf';
+import dsResume from '../../images/Dhruv_Saini.pdf';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import CountUp from 'react-countup';
@@ -23,7 +23,7 @@ function AboutPage(props) {
           <img className="bgImg" data-aos="fade-up" alt="background" src={dsbackpic} />
           <div className="contentLeft" data-aos="fade-up">
             <div className=" text-center coder description">
-              <h1 >Product Engineer <br/>+ <br/>Master's Student</h1>
+              <h1 >Software Engineer <br/>+ <br/>Master's Student</h1>
               <p>
   Hello! I am a passionate software developer and dedicated computer science graduate student from India, currently based in Boston, United States.
   <br /><br />
@@ -45,7 +45,8 @@ function AboutPage(props) {
             <div className="whatsNew">
   <h2>What's New With Me ?</h2>
   <p>
-  I'm currently exploring the immense potential of machine learning, diving into various algorithms and techniques. I'm excited to apply this knowledge to tackle real-world challenges and contribute to the development of intelligent and impactful solutions.
+  I’m currently exploring the immense potential of data by diving into various algorithms and best practices for optimal data management and processing.</p><p>
+  I’m excited to apply this knowledge to tackle real-world challenges and contribute to the development of intelligent and impactful solutions.
   </p>
 </div>
 

@@ -8,7 +8,7 @@ const TimelineItem = ({ data }) => (
         <span className="tag" style={{ background: data.category.color }}>
           {data.category.tag}
         </span>
-        <h2>{data.title}</h2>
+        <h2 className='title'>{data.title}</h2>
         <h5>
           <ImLocation color="#5DE31D" />
           {data.organization}, {data.location}

@@ -41,6 +41,17 @@
     align-items: center;
     flex-wrap: wrap;
   }
+  
+  .card-body {
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflowing text */
+  }
+  .card-body.expanded {
+    overflow: visible; 
+  }
+  
+  
+  
 
 @media (max-width: 800px)  {
 
@@ -71,11 +82,16 @@
         cursor: pointer;
         text-decoration: none;
         color: #262626;
+        overflow: hidden;
+        height: 300px; /* Adjust the height as needed */
+        transition: height .7s ease-in-out; /* Smooth transition for the height change */
+
     }
     
     .appCard:hover{
-        transition: .1s;
+        transition: .7s;
         box-shadow: 1px 3px 10px rgb(51 51 51 / 10%);
+        height: 100%;
     }
 
         .imgCard{
@@ -87,9 +103,24 @@
             border-radius: 25px;
         }
        
-        .appCard.hovered {
-            height: auto;
+
+
+          
+          /* Prevent text overflow in the card body */
+          .card-text {
+         /*   display: -webkit-box;*/
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            white-space: normal;
+            max-height: 4.5em; /* Approx. 3 lines height, adjust if needed */
+            transition: max-height .7s ease-in-out;
           }
           
+          /* Expanded card text on hover */
+          .appCard.hovered .card-text {
+            -webkit-line-clamp: unset; /* Remove line limit */
+            max-height: none; /* Allow full height */
+          }
           
           
