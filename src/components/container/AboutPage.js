@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import './AboutPage.css';
 import dsbackpic from '../../images/IMG1.jpg';
-import dsResume from '../../images/Dhruv_Saini.pdf';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import CountUp from 'react-countup';
@@ -13,8 +12,9 @@ function AboutPage(props) {
   }, []);
 
   const handleContactMe = () => {
-    window.location.href = 'mailto:saini.dh@northeastern.edu';
+    window.location.href = 'mailto:sainidhruv1997@gmail.com';
   };
+
 
   return (
     <Container className="aboutContainer" id="about">
@@ -50,18 +50,29 @@ function AboutPage(props) {
   </p>
 </div>
 
-            <a className="downloadBtn" href={dsResume} download>
-              <div className="countClass downloadClass">
-                <p>Download Resume</p>
-              </div>
-            </a>
-            <div className="mobileDownloadClass">
-              <p>
-                <a className="downloadBtn" href={dsResume} download>
-                  Download Resume.
-                </a>
-              </p>
-            </div>
+<a
+  className="downloadBtn"
+  href="https://drive.google.com/file/d/1VbZXZRn4VVkoVPnq7rfXg4OorBrAy0iw/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <div className="countClass downloadClass">
+    <p>Open Resume</p>
+  </div>
+</a>
+<div className="mobileDownloadClass">
+  <p>
+    <a
+      className="downloadBtn"
+      href="https://drive.google.com/file/d/1VbZXZRn4VVkoVPnq7rfXg4OorBrAy0iw/view?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Open Resume
+    </a>
+  </p>
+</div>
+
           </div>
         </div>
       </div>

@@ -1,15 +1,15 @@
 const allProjects = [
     {id:1,
-        title: 'Ongoing Machine Learning Project - Bank Fraud Detection',
+        title: 'Bank Fraud Detection',
         imgUrl: 'bankFraud.jpeg',
-        skills: "Python | scikit-learn | NumPy | Matplotlib | Seaborn", 
+        skills: "Machine Learning | Python | Scikit-learn | Pandas | NumPy | Matplotlib | FastAPI | MongoDB", 
         githubLink: 'https://github.com/dhruvsaini1997/Bank-Fraud-Detection-Using-NeurIPS-2022-Dataset-suite',
         description: 'Worked on a machine learning project focused on developing a classification model for bank fraud detection using supervised learning techniques. Collaborating with a team to analyze a publicly available dataset and implement algorithms such as Logistic Regression, Decision Trees, and potentially Neural Networks to accurately detect and classify fraudulent activities in the banking sector. Employing evaluation measures, cross-validation, and feature ablation techniques to fine-tune the models performance and ensure its ability to generalize to unseen data. Expected outcomes include improved fraud detection accuracy and enhanced trust in the banking sector.'
     },
     {id:2,
         title: 'Logitt Application',
         imgUrl: 'logiit.png',
-        skills: "Java | Spring Boot | React | MySQL Workbench", 
+        skills: "ReactJS | Java 17 | Spring Boot | JPA | AWS | PostgreSQL | Hibernate ORM | Back-End Web Dev", 
         githubLink: 'https://github.com/dhruvsaini1997/Logitt',
         description: 'The Logitt application is an ultimate stop solution for analyzing spending patterns, helping users save money and prevent wasteful expenditures by over 20%. It empowers users to effortlessly track and record daily expenses in their preferred currency. With a user-friendly dashboard, it allows tracking expenses in different categories such as Shopping, Groceries, etc. Logitt enables its users to stay on top of their spending and make more informed financial decisions. This project is part of the CS5200 course at Northeastern University.'
     }
@@ -41,7 +41,7 @@ const allProjects = [
 const allSkills = [
     {
         title: 'Programming Languages',
-        list: ['Python', 'C/C++', 'Java', 'C#', 'JavaScript','R'],
+        list: ['Python', 'Java 8+', 'C#', 'JavaScript', 'SQL', 'C++', 'Shell scripting','R'],
         index: 1
     },
     {
@@ -61,12 +61,12 @@ const allSkills = [
     }
     , {
         title: 'Cloud Technologies',
-        list: ['Microsoft Azure', 'DataBricks', 'Amazon Web Services','Docker'],
+        list: ['Microsoft Azure', 'DataBricks', 'Amazon Web Services'],
         index:3
     },
     {
         title: 'Database Technologies',
-        list: ['PostGres', 'BigQuery', 'MySQL', 'MongoDB']
+        list: ['PostGres', 'BigQuery', 'MySQL', 'MongoDB', 'DynamoDB']
         , index:4
     }
     
@@ -85,7 +85,7 @@ const timelineItems =
             'Actively optimizing data pipeline performance and automating data cleaning and filtering processes.',
             'Developed and automated complex logic for verifying and correcting plasmid sequences prior to manual intervention.'
         ],
-        skills: "Python | Django | REST APIs | SQL | BigQuery | Docker",      
+        skills: "Python | Django | ETL | REST APIs | SQL | BigQuery | Docker | Jenkins",      
         date: 'May 2024 - Present',
         category: {
             tag: 'Full-Time',
@@ -119,7 +119,7 @@ const timelineItems =
             "Took individual ownership of analyzing, developing, and deploying multiple business-impacting features such as a daily quotes reporting system and more.",
             "Recognized by the development team and product owners for leadership and ownership qualities and sound business impact.",
           ],
-          skills: "Java | C# | Spring Boot | Microsoft Azure | Azure Data Factory | Data Bricks | Jenkins",      
+          skills: "Java 8 | Spring Boot | ORM | Azure DevOps | Data Factory | SQL | Kafka | HTTP | SOAP | REST | MVC | Docker ",      
         date: 'July 2020 - December 2022',
         category: {
             tag: 'Full-Time',
