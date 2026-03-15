@@ -34,9 +34,11 @@
 
 
 .timeline-item-content {
-    box-shadow: 0 0 5px var(--shadow);
+    box-shadow: 0 4px 16px var(--shadow);
     border-radius: 5px;
     background-color: var(--timeline-card-bg);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -44,7 +46,11 @@
     position: relative;
     width: 400px;
     max-width: 70%;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-item-content:hover {
+    box-shadow: 0 8px 32px var(--shadow);
 }
 
 .timeline-item-content::after {
@@ -140,11 +146,36 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .timeline-container::after {
+        left: 16px;
+    }
+
+    .timeline-item,
+    .timeline-item:nth-child(odd) {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 0;
+        justify-content: flex-start;
+        align-self: auto;
+    }
+
     .timeline-item-content,
     .timeline-item:nth-child(odd) .timeline-item-content {
+        max-width: 100%;
         padding: 15px 10px;
-        text-align: center;
-        align-items: center;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .timeline-item-content::after,
+    .timeline-item:nth-child(odd) .timeline-item-content::after {
+        display: none;
+    }
+
+    .timeline-item-content .circle,
+    .timeline-item:nth-child(odd) .timeline-item-content .circle {
+        left: -40px;
+        right: auto;
     }
 
     .timeline-item-content ul{

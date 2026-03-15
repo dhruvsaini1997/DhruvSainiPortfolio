@@ -1,5 +1,12 @@
+.skillSection {
+    background-color: var(--bg-secondary);
+    transition: background-color 0.3s ease;
+}
+
 .appcard {
     background-color: var(--bg-card) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
     border-radius: 10px !important;
     box-shadow: 0 2px 8px var(--shadow);
     padding: 0;
@@ -28,7 +35,7 @@
 
   .appcard:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px var(--shadow);
+    box-shadow: 0 8px 32px var(--shadow);
   }
 
   .cardHolder {

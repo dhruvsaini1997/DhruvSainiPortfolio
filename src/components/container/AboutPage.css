@@ -160,7 +160,10 @@ color: gray;
     background-size: 200%;
     transition: 0.5s ease-out;
     color: black !important;
-    /* border: 2px solid black; */
+  }
+
+  .downloadClass:active {
+    transform: scale(0.96);
   }
   
   .downloadBtn {
@@ -178,6 +181,8 @@ color: gray;
 
     .coder.description {
         background-color: var(--bg-card);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
         padding: 14px 16px;
         border-radius: 10px;
         box-shadow: 0 0 20px var(--shadow);
@@ -229,9 +234,15 @@ color: gray;
         color: black !important;
       }
 
+      .contactBtn:active {
+        transform: scale(0.96);
+      }
+
       .whatsNew {
         margin-top: 5%;
         background-color: var(--bg-card);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
         padding: 12px 16px;
         border-radius: 10px;
         box-shadow: 0 0 20px var(--shadow);

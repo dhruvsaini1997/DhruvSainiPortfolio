@@ -23,7 +23,7 @@ function SkillPage(props) {
         Aos.init({ duration: 2000 });
     }, []);
     return (
-        <div className='projectContainer pt-5' id="skillPage">
+        <div className='projectContainer skillSection pt-5' id="skillPage">
             <div className='row projectClass d-flex justify-content-center' >
                 <div className="header-center"><h3><FaTools />   The Skills</h3></div>
                 <div>
