@@ -76,33 +76,37 @@ const timelineItems =
 
 [
     {
-        title:'Software Data Engineering Co-Op',
-        organization:'Addgene',
-        location:'Boston, United States',
+        title:'Software Engineer (Generative AI)',
+        organization:'C3.AI',
+        location:'California, United States',
         responsibilities: [
-            'Contributed to the continuous development and delivery of functionalities for the Lab Information Management System (LIMS) and the public website.',
-            'Redesigned and refactored ETL data pipelines to integrate plasmid sequences and features data from multiple sources (SnapGene/S3) to Google BigQuery, enhancing data ingestion time by 60%.',
-            'Actively optimizing data pipeline performance and automating data cleaning and filtering processes.',
-            'Developed and automated complex logic for verifying and correcting plasmid sequences prior to manual intervention.'
+            'Architected agentic AI application featuring chat interface, streaming responses, agent visualization, fuzzy search, dynamic canvas for content generation, and workflow automation for complex multi-step processes.',
+            'Engineered context injection system capturing Redux state and user actions via callbacks, enabling agents to dynamically access application context for intelligent, context-aware responses and decision-making.',
+            'Built workflow orchestration system using ReactFlow with node-based visual diagrams, execution tracking, template management, and LangGraph compilation featuring cron scheduling, conditional edges, and I/O mappings.',
+            'Developed AI-powered document generation canvas with custom TipTap/ProseMirror extensions supporting multi-format outputs (emails, reports, forms) with variable substitution, reasoning visualization, and integrated deep research.',
+            'Optimized RAG pipeline implementing query rewriting, hybrid retrieval (semantic + keyword + metadata), and reranking using PgVector and improving search accuracy.',
+            'Served as Build Master coordinating zero-incident deployments; resolved 50+ critical production bugs (agent handovers, conversation management, parallel workflow execution), reducing support tickets by 35%.'
         ],
-        skills: "Python | Django | ETL | REST APIs | SQL | BigQuery | Docker | Jenkins",      
-        date: 'May 2024 - Present',
+        skills: "Python | ReactJS | Redux | JavaScript | Postgres | LangGraph | PgVector | LiteLLM | MCP | LLM Integration | Agentic AI",
+        date: 'May 2025 - Present',
         category: {
             tag: 'Full-Time',
             color: '#76B947'
         }
     },
     {
-        title:'Graduate Teaching Assistant',
-        organization:'Khoury College of Computer Science',
+        title:'Data Engineer Co-op',
+        organization:'Addgene',
         location:'Boston, United States',
         responsibilities: [
-            'Served as a Teaching Assistant for CS5200 Database System, guiding and mentoring a class of students through database design principles and PL/SQL.',
-            'Offering comprehensive support, resolving queries, and providing valuable academic assessments to enhance their learning experience.',
-            'Helping over 60 students with designing and implementing database oriented projects using SQL and No SQL Databases with backend(java/python) and frontend(react) technologies.'
+            'Developed ETL pipelines to load terabytes of scientific data from NCBI database, Amazon S3, and in-house SQL servers into Google BigQuery, enabling near real-time analysis of global orders and inventory by the business team.',
+            'Enhanced Addgene\'s Laboratory Information Management System (LIMS) fixing critical issues in the Python/Django codebase using AWS CloudWatch, achieving 99% uptime through Amazon EC2 auto-scaling and load balancing.',
+            'Automated pipelines eliminated need of manual data processing by QC team, reducing time spent from 10+ hours/week to 0.',
+            'Designed daily workflows to fetch and transform millions of raw HTTP responses (XML, JSON) into structured formats for efficient storage, with REST request/response logs captured in Apache Kibana via Elasticsearch for monitoring.',
+            'Prototyped a DNA screening system using SecureDNA, Blob Storage, Key Vault, DynamoDB and AWS Step Functions.'
         ],
-        skills: "Python | SQL | Database Design | MongoDb",      
-        date: 'May 2023 - May 2024',
+        skills: "Python | Django | Data Pipelines | Spark | Amazon S3 | BigQuery | Jupyter Notebook | Shipyard | DynamoDB | Airflow | Celery",
+        date: 'May 2024 - December 2024',
         category: {
             tag: 'Full-Time',
             color: '#76B947'

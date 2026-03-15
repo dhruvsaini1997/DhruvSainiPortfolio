@@ -23,9 +23,9 @@ function AboutPage(props) {
           <img className="bgImg" data-aos="fade-up" alt="background" src={dsbackpic} />
           <div className="contentLeft" data-aos="fade-up">
             <div className=" text-center coder description">
-              <h1 >Software Engineer <br/>+ <br/>Master's Student</h1>
+              <h1>Software Engineer</h1>
               <p>
-  Hello! I am a passionate software developer and dedicated computer science graduate student from India, currently based in Boston, United States.
+  Hello! I am a passionate software engineer from India, currently based in the Bay Area, California.
   <br /><br />
   With an insatiable curiosity for technology and an unwavering commitment to solving complex problems, I thrive in designing and implementing scalable software solutions that drive remarkable outcomes.
 </p>
