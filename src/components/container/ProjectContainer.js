@@ -21,31 +21,35 @@ function ProjectContainer(props) {
         <div>
           <Container>
             <Row xs={1} md={3} className='g-4 h-100'>
-              {props.constantData.allProjects.map((project) => (
+              {props.constantData.allProjects.map((project) => {
+                const isHovered = hoveredCard === project.id;
+                const words = project.description.split(' ');
+                return (
                 <Col data-aos='fade-up' key={project.id}>
                   <a className='appCard' href={project.githubLink} target='_blank'>
                     <Card
-                      className={`appCard ${hoveredCard === project.id ? 'hovered' : ''}`}
+                      className={`appCard ${isHovered ? 'hovered' : ''}`}
                       onMouseEnter={() => setHoveredCard(project.id)}
                       onMouseLeave={() => setHoveredCard(null)}
                     >
                       <Card.Img className='imgCard' variant='top' src={project.imgUrl} />
                       <Card.Body>
                         <Card.Title>{project.title}</Card.Title>
+                        <div className='project-skills'>
+                          {project.skills.split('|').map((skill) => (
+                            <span key={skill.trim()} className='skill-badge'>{skill.trim()}</span>
+                          ))}
+                        </div>
                         <Card.Text>
-                          {hoveredCard === project.id
-                            ? project.description
-                            : project.description.split(' ').slice(0, 50).join(' ')}
-                          {project.description.split(' ').length > 50 && hoveredCard !== project.id ? '...' : ''}
+                          {isHovered ? project.description : words.slice(0, 50).join(' ')}
+                          {words.length > 50 && !isHovered ? '...' : ''}
                         </Card.Text>
                       </Card.Body>
-                      <Card.Footer>
-                        <small className='text-muted'>{project.skills}</small>
-                      </Card.Footer>
                     </Card>
                   </a>
                 </Col>
-              ))}
+                );
+              })}
             </Row>
           </Container>
         </div>

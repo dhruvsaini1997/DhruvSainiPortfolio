@@ -5,6 +5,7 @@ import SkillPage from '../container/SkillPage'
 import Timeline from '../container/Timeline'
 import Footer from '../footer/Footer'
 import Header from '../header/Header'
+import ParticleBackground from '../ParticleBackground'
 import './AppContainer'
 
 function AppContainer(props) {
@@ -21,6 +22,7 @@ function AppContainer(props) {
 
   return (
     <div className='appContainerMain'>
+      <ParticleBackground darkMode={darkMode} />
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <AboutPage />
       <ProjectContainer constantData={props.constantData} />

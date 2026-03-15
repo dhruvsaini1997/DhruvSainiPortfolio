@@ -1,11 +1,29 @@
 .appcard {
-    background-color: var(--bg-primary);
-    border-radius: 10px;
-    box-shadow: 0 2px 4px var(--shadow);
-    padding: 1.5rem;
+    background-color: var(--bg-card) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 8px var(--shadow);
+    padding: 0;
     text-decoration: none;
     color: var(--text-primary);
+    border: 1px solid var(--border-color) !important;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease;
+  }
+
+  .appcard .card-header {
+    background-color: var(--bg-card) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+  }
+
+  .appcard .card-body {
+    background-color: var(--bg-card) !important;
+    color: var(--text-secondary) !important;
+  }
+
+  .appcard .card-footer {
+    background-color: var(--bg-card) !important;
+    border-top: 1px solid var(--border-color) !important;
+    color: var(--text-muted) !important;
   }
 
   .appcard:hover {
@@ -34,7 +52,7 @@
 
   .cardBody ul {
     list-style: none;
-    padding: 0;
+    padding: 0 0 0 1rem;
     margin: 0;
   }
 

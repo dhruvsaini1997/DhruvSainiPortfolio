@@ -8,6 +8,15 @@ import Aos from "aos";
 import "aos/dist/aos.css"
 
 
+const SKILL_ICONS = {
+  1: <BsLaptopFill />,
+  2: <BsFileEarmarkCodeFill />,
+  3: <FaCloud />,
+  4: <FaDatabase />,
+  5: <AiFillCodeSandboxSquare size='1.5em' />,
+  6: <FaPython />,
+};
+
 function SkillPage(props) {
 
     useEffect(() => {
@@ -22,23 +31,16 @@ function SkillPage(props) {
                         <Row xs={1} md={3} className="g-4 h-100">
 
                             {props.constantData.allSkills.map((skill) =>
-                            (<Col data-aos="fade-up">
+                            (<Col data-aos="fade-up" key={skill.index}>
                                 <Card className='appcard'>
                                     <Card.Header className='title'>
-
-                                        {skill.index == 1 && <BsLaptopFill color='black' />}
-                                        {skill.index == 2 && <BsFileEarmarkCodeFill color='black' />}
-                                        {skill.index == 3 && <FaCloud color='black' />}
-                                        {skill.index == 4 && <FaDatabase color='black' />}
-                                        {skill.index == 5 && <AiFillCodeSandboxSquare color='black' size='40px' />}
-                                        {skill.index == 6 && <FaPython color='black' />}
-
+                                        {SKILL_ICONS[skill.index]}
                                         &nbsp;
                                         {skill.title}</Card.Header>
                                     <Card.Body className='cardBody'>
                                         <ul>
                                             {skill.list.map(i => (
-                                                <li>
+                                                <li key={i}>
                                                     {i}
                                                 </li>
                                             ))}
