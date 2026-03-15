@@ -9,9 +9,9 @@ const allProjects = [
     {id:2,
         title: 'Logitt Application',
         imgUrl: 'logiit.png',
-        skills: "ReactJS | Java 17 | Spring Boot | JPA | AWS | PostgreSQL | Hibernate ORM | Back-End Web Dev", 
+        skills: "ReactJS | Java 17 | Spring Boot | JPA | AWS | PostgreSQL | Hibernate ORM | Back-End Web Dev",
         githubLink: 'https://github.com/dhruvsaini1997/Logitt',
-        description: 'The Logitt application is an ultimate stop solution for analyzing spending patterns, helping users save money and prevent wasteful expenditures by over 20%. It empowers users to effortlessly track and record daily expenses in their preferred currency. With a user-friendly dashboard, it allows tracking expenses in different categories such as Shopping, Groceries, etc. Logitt enables its users to stay on top of their spending and make more informed financial decisions. This project is part of the CS5200 course at Northeastern University.'
+        description: 'Logitt is a personal finance application for analyzing spending patterns, helping users save money and prevent wasteful expenditures by over 40%. It empowers users to effortlessly track and record daily expenses in their preferred currency. With a user-friendly dashboard, it allows tracking expenses across categories such as Shopping, Groceries, and more — enabling smarter, more informed financial decisions.'
     }
     , {id:3,
         title: 'Onskola - School Management System',
@@ -41,35 +41,34 @@ const allProjects = [
 const allSkills = [
     {
         title: 'Programming Languages',
-        list: ['Python', 'Java 8+', 'C#', 'JavaScript', 'SQL', 'C++', 'Shell scripting','R'],
+        list: ['Python', 'Java 8+', 'JavaScript', 'SQL', 'C#', 'C++', 'Shell Scripting'],
         index: 1
     },
     {
-        title: 'Web Technologies',
-        list: ['HTML5', 'CSS', 'JavaScript ', 'Bootstrap', 'React', 'NodeJs'],
-        index:2
+        title: 'Frameworks & Libraries',
+        list: ['ReactJS', 'Redux', 'Node.js', 'Django', 'Spring Boot', 'LangGraph', 'LiteLLM', 'Pandas', 'NumPy', 'PyTorch'],
+        index: 2
     },
     {
-        title: 'Softwares',
-        list: ['Visual studio', 'Visual studio Code', 'Eclipse', 'Anaconda', 'Jenkins', 'Sonarqube']
-        , index:5
+        title: 'AI & ML',
+        list: ['LLM Integration', 'Agentic AI', 'RAG Pipelines', 'Prompt Engineering', 'PgVector', 'MCP', 'Scikit-learn', 'Matplotlib'],
+        index: 6
     },
     {
-        title: 'Libraries',
-        list: ['Pytorch', 'Pandas', 'Matplotlib ', 'NumPy'],
-        index:6
-    }
-    , {
-        title: 'Cloud Technologies',
-        list: ['Microsoft Azure', 'DataBricks', 'Amazon Web Services'],
-        index:3
+        title: 'Cloud & DevOps',
+        list: ['Amazon Web Services', 'Microsoft Azure', 'Databricks', 'Docker', 'Kafka', 'Jenkins', 'Airflow', 'Git'],
+        index: 3
     },
     {
         title: 'Database Technologies',
-        list: ['PostGres', 'BigQuery', 'MySQL', 'MongoDB', 'DynamoDB']
-        , index:4
+        list: ['PostgreSQL', 'BigQuery', 'Elasticsearch', 'MongoDB', 'DynamoDB', 'MySQL'],
+        index: 4
+    },
+    {
+        title: 'Data Engineering',
+        list: ['ETL Pipelines', 'Apache Spark', 'Celery', 'REST APIs', 'Apache Kafka', 'Shipyard'],
+        index: 5
     }
-    
 ]
 
 const timelineItems =

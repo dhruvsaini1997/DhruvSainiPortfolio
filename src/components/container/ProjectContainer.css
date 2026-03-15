@@ -1,24 +1,24 @@
 .projectContainer{
     padding-top: 5%;
     padding-bottom: 5%;
-    /* height: 100vh; */
-    background-color: #fafafa;
+    background-color: var(--bg-secondary);
     width: 100%;
-    text-decoration: none;  
+    text-decoration: none;
     position: relative;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.3s ease;
 }
 
 .header-center{
     height: 1px;
-    background: #dddddd;
+    background: var(--border-color);
     margin-bottom: 3.2rem;
     position: relative;
 }
 
 .header-center h3{
-    background: #fafafa;
+    background: var(--bg-secondary);
     position: absolute;
     top: -0.8rem;
     left: 50%;
@@ -26,7 +26,7 @@
     width: 320px;
     text-align: center;
     display: block;
-    color: #757575;
+    color: var(--text-muted);
     text-transform: uppercase;
     font-size: 12px;
     font-size: 1.0rem;
@@ -34,6 +34,7 @@
     letter-spacing: 0.2rem;
     padding: 0 !important;
     font-family: "proxima nova semibold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    transition: background-color 0.3s ease;
 }
 .card-holder{
     display: flex;
@@ -76,16 +77,14 @@
 
 
     .appCard{
-        background-color: white;
-        /* height: 100%; */
+        background-color: var(--bg-primary);
         align-items: center;
         cursor: pointer;
         text-decoration: none;
-        color: #262626;
+        color: var(--text-primary);
         overflow: hidden;
-        height: 300px; /* Adjust the height as needed */
-        transition: height .7s ease-in-out; /* Smooth transition for the height change */
-
+        height: 300px;
+        transition: height .7s ease-in-out, background-color 0.3s ease, color 0.3s ease;
     }
     
     .appCard:hover{

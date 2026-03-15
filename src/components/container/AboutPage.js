@@ -38,15 +38,15 @@ function AboutPage(props) {
           <div className="contentRight" data-aos="fade-up">
             <div className="countClass">
               <h1>
-                <CountUp start={0} end={1000000} duration={3} delay={0.01} />+
+                <CountUp start={0} end={5} duration={3} delay={0.01} />+
               </h1>
-              <h5>Lines of code</h5>
+              <h5>Years of Experience</h5>
             </div>
             <div className="whatsNew">
-  <h2>What's New With Me ?</h2>
+  <h2>What’s New With Me ?</h2>
   <p>
-  I’m currently exploring the immense potential of data by diving into various algorithms and best practices for optimal data management and processing.</p><p>
-  I’m excited to apply this knowledge to tackle real-world challenges and contribute to the development of intelligent and impactful solutions.
+  I’m currently building agentic AI applications at C3.AI — working on LLM integration, RAG pipelines, workflow orchestration with LangGraph, and AI-powered document generation.</p><p>
+  Passionate about the intersection of software engineering and artificial intelligence, I love turning complex problems into intelligent, scalable solutions.
   </p>
 </div>
 
